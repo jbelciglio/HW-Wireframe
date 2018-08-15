@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+body{
+    background: #ccc;
+}
+  header {
+      
+      background: white;
+      color: #333;
+      padding: 20px;
+      margin-bottom: 10px;
+  }
+  nav {
+      background: white;
+      color: #333;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+  section {
+      float: left;
+      background: white;
+      color: #333;
+      padding: 40px 320px 200px 320px;
+      border-bottom: 20px;
+      z-index: 1;
+  }
+  article {
+      
+      margin-left: 26%;
+      color: white;
+      background: #333;
+      z-index: 2;
+      position: absolute;
+      
+  }
+  heading {
+      float: left;
+      background: white;
+      color: #333;
+      z-index: 3;
+  }
+  paragraph {
+      float: left;
+      background: white;
+      color: #333;
+      z-index: 3;
+  }
+  aside {
+      float: right;
+      background: white;
+      color: #333;
+      padding:80PX 50px 200PX 50px;
+      margin: 40px 150px 40px 150px;
+      
+  }
+  footer {
+    background: white;
+    color: #333;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
