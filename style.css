@@ -1,64 +1,70 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    position: relative;
-  }
-body{
+    }
+body {
     background: #ccc;
 }
-  header {
+#header {
       
       background: white;
       color: #333;
       padding: 20px;
       margin-bottom: 10px;
   }
-  nav {
+#nav {
       background: white;
       color: #333;
       padding: 20px;
       margin-bottom: 20px;
   }
-  section {
+#section {
       float: left;
       background: white;
       color: #333;
-      padding: 40px 320px 200px 320px;
-      border-bottom: 20px;
+      padding: 20px;
+      height:300px;
+      width: 54%;
+      margin-bottom: 10px;
       z-index: 1;
+     
+
   }
-  article {
-      
-      margin-left: 26%;
+#article { 
       color: white;
-      background: #333;
-      z-index: 2;
-      position: absolute;
-      
-  }
-  heading {
-      float: left;
+      background: #ccc;
+      padding: 20px;
+      margin-top: 20px;
+       
+    }
+#head {
       background: white;
       color: #333;
-      z-index: 3;
+      padding: 10px;
+      margin-top: 10px;
   }
-  paragraph {
-      float: left;
+#paragraph {
+    background: white;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    
+  }
+#aside {
       background: white;
       color: #333;
-      z-index: 3;
-  }
-  aside {
+      padding: 20px;
+      height:300px;
+      width: 45%;
+      margin-bottom: 10px;
       float: right;
-      background: white;
-      color: #333;
-      padding:80PX 50px 200PX 50px;
-      margin: 40px 150px 40px 150px;
+      z-index: 1;
       
   }
-  footer {
+#footer {
     background: white;
     color: #333;
     padding: 20px;
     margin-bottom: 10px;
+    clear: both;
   }
